@@ -28,6 +28,45 @@
 
     <main>
       <section>
+        <h2>Фильтрация списка шаблонов</h2>
+        <ul>
+          <li>
+            <h3>стоимость:</h3>
+            <div>ползунок выбора цены</div>
+            <label for="price_from">от</label>
+            <input id="price_from" type="text" placeholder="0">
+            <label for="price_to">до</label>
+            <input id="price_to" type="text" placeholder="15">
+          </li>  
+          <li>
+              <h3>сетка:</h3>
+              <label><input name="grid" type="radio" value="adaptive" checked>Адаптивная</label>
+              <label><input name="grid" type="radio" value="fixed">Фиксированная</label>
+              <label><input name="grid" type="radio" value="reflowable">Резиновая</label>
+          </li>
+          <li>
+              <h3>особенности:</h3>
+              <label><input type="checkbox" value="slider" checked>Слайдер</label>
+              <label><input type="checkbox" value="block_features">Блок преимуществ</label>
+              <label><input type="checkbox" value="news" checked>Новости</label>
+              <label><input type="checkbox" value="gallery">Галерея</label>
+              <label><input type="checkbox" value="basket">Корзина</label>
+          </li>
+        </ul>
+        <button type="button">показать</button>
+      </section>
+      <section>
+        <h2>сортировать:</h2>
+        <button type="button">по цене</button>
+        <button type="button">по типу</button>
+        <button type="button">по названию</button>
+        
+        <h2>Виды сортировки</h2>
+        <label><input name="sorting" type="radio" value="decrease" checked>по убыванию</label>
+        <label><input name="type_sorting" type="radio" value="increase">по возрастанию</label>
+      </section>
+      
+      <section>
         <h2>Список готовых шаблонов</h2>
         <ul>
             <li>
@@ -109,31 +148,21 @@
                 </div>
             </li>
         </ul>
-      </section>
-
-      <section>
-          <h2>Фильтрация списка шаблонов</h2>
-          <ul>
-              <li>
-                <h3>сетка:</h3>
-                <label><input name="grid" type="radio" value="adaptive" checked>Адаптивная</label>
-                <label><input name="grid" type="radio" value="fixed">Фиксированная</label>
-                <label><input name="grid" type="radio" value="reflowable">Резиновая</label>
-              </li>
-              <li>
-                <h3>особенности:</h3>
-                <label><input type="checkbox" value="slider" checked>Слайдер</label>
-                <label><input type="checkbox" value="block_features">Блок преимуществ</label>
-                <label><input type="checkbox" value="news" checked>Новости</label>
-                <label><input type="checkbox" value="gallery">Галерея</label>
-                <label><input type="checkbox" value="basket">Корзина</label>
-            </li>
-          </ul>
-          <button type="button">показать</button>
+        <div>
+          <h3>Пагинация</h3>
+          <a href="">1</a>
+          <a href="">2</a>
+          <a href="">3</a>
+          <a href="">Следующая</a>
+        </div>
       </section>
     </main>
 
     <footer>
+      <section>
+        <h2>Наши контакты</h2>
+        <span>Карта</span>
+      </section>
       <section>
         <h2>Мы в социальных сетях</h2>
         <ul>
@@ -155,6 +184,7 @@
         </ul>
       </section>
       <section>
+        <h2>Акции</h2>
         <p>Давайте дружить, это выгодно!</p>
         <p>Скидка 10% для друзей из социальных сетей.</p>
       </section>
