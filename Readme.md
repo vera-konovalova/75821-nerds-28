@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Вера Варкентин](https://up.htmlacademy.ru/htmlcss/28/user/75821).
-* Наставник: [Борис Сафонов](https://htmlacademy.ru/profile/id1400333).
+* Наставник: [Андрей Фидельман](https://htmlacademy.ru/profile/id773165).
 
 ---
 
